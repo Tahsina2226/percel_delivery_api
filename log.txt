@@ -83,3 +83,22 @@
 2025-08-05 19:25:39.921 +06:00 [WRN] No ConfigurationItems have been defined, configuration won't surface any configuration from the client!
 2025-08-05 19:25:40.063 +06:00 [DBG] Finished: Routing Notification initialized in 279ms
 2025-08-05 19:25:40.065 +06:00 [DBG] Finished: Processing notification initialized in 282ms
+2025-08-05 20:11:40.423 +06:00 [INF] This only goes file...
+2025-08-05 20:11:41.242 +06:00 [INF] Foo
+2025-08-05 20:11:48.100 +06:00 [DBG] Finding descriptors for initialize
+2025-08-05 20:11:48.321 +06:00 [DBG] Queueing "Serial":initialize:0 request for processing
+2025-08-05 20:11:48.344 +06:00 [DBG] Starting: Processing request initialize 0
+2025-08-05 20:11:48.345 +06:00 [DBG] Starting: Routing Request (0) initialize
+2025-08-05 20:11:48.348 +06:00 [VRB] Converting params for Request (0) initialize to OmniSharp.Extensions.LanguageServer.Protocol.Models.InternalInitializeParams
+2025-08-05 20:11:48.354 +06:00 [VRB] Converting params for Notification initialize to OmniSharp.Extensions.LanguageServer.Protocol.Models.InternalInitializeParams
+2025-08-05 20:11:49.102 +06:00 [VRB] Response value was OmniSharp.Extensions.LanguageServer.Protocol.Models.InitializeResult
+2025-08-05 20:11:49.159 +06:00 [DBG] Finished: Routing Request (0) initialize in 813ms
+2025-08-05 20:11:49.160 +06:00 [DBG] Finished: Processing request initialize 0 in 815ms
+2025-08-05 20:12:06.496 +06:00 [DBG] Finding descriptors for initialized
+2025-08-05 20:12:06.501 +06:00 [DBG] Queueing "Serial":initialized request for processing
+2025-08-05 20:12:06.506 +06:00 [DBG] Starting: Processing notification initialized
+2025-08-05 20:12:06.507 +06:00 [DBG] Starting: Routing Notification initialized
+2025-08-05 20:12:06.507 +06:00 [VRB] Converting params for Notification initialized to OmniSharp.Extensions.LanguageServer.Protocol.Models.InitializedParams
+2025-08-05 20:12:06.544 +06:00 [WRN] No ConfigurationItems have been defined, configuration won't surface any configuration from the client!
+2025-08-05 20:12:06.615 +06:00 [DBG] Finished: Routing Notification initialized in 108ms
+2025-08-05 20:12:06.616 +06:00 [DBG] Finished: Processing notification initialized in 109ms
