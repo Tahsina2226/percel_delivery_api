@@ -4,10 +4,10 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.authorizeRoles = exports.authenticateJWT = void 0;
-const express_1 = require("express");
 const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
 const authenticateJWT = (req, res, next) => {
-    const token = req.headers.authorization?.split(" ")[1];
+    var _a;
+    const token = (_a = req.headers.authorization) === null || _a === void 0 ? void 0 : _a.split(" ")[1];
     if (!token)
         return res.status(401).json({ message: "No token provided" });
     try {
@@ -15,7 +15,7 @@ const authenticateJWT = (req, res, next) => {
         req.user = decoded;
         next();
     }
-    catch {
+    catch (_b) {
         res.status(403).json({ message: "Invalid or expired token" });
     }
 };
@@ -31,4 +31,3 @@ const authorizeRoles = (...roles) => {
     };
 };
 exports.authorizeRoles = authorizeRoles;
-//# sourceMappingURL=authMiddleware.js.map

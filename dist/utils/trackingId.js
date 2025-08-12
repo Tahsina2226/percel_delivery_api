@@ -9,4 +9,3 @@ const generateTrackingId = () => {
     return `TRK-${yyyyMMdd}-${random}`;
 };
 exports.generateTrackingId = generateTrackingId;
-//# sourceMappingURL=trackingId.js.map

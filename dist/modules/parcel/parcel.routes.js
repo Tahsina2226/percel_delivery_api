@@ -12,4 +12,3 @@ router.post("/", (0, authMiddleware_1.authorizeRoles)("sender"), parcel_controll
 router.get("/me", (0, authMiddleware_1.authorizeRoles)("sender"), parcel_controller_1.getMyParcels);
 router.patch("/cancel/:id", (0, authMiddleware_1.authorizeRoles)("sender"), parcel_controller_1.cancelParcel);
 exports.default = router;
-//# sourceMappingURL=parcel.routes.js.map

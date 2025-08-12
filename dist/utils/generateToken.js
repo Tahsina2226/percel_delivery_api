@@ -11,4 +11,3 @@ const generateToken = (id, role) => {
     });
 };
 exports.generateToken = generateToken;
-//# sourceMappingURL=generateToken.js.map

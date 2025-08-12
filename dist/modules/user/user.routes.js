@@ -12,4 +12,3 @@ router.get("/", user_controller_1.getAllUsers);
 router.patch("/block/:id", user_controller_1.blockUser);
 router.patch("/unblock/:id", user_controller_1.unblockUser);
 exports.default = router;
-//# sourceMappingURL=user.routes.js.map

@@ -57,4 +57,3 @@ const parcelSchema = new mongoose_1.Schema({
     isBlocked: { type: Boolean, default: false },
 }, { timestamps: true });
 exports.Parcel = mongoose_1.default.model("Parcel", parcelSchema);
-//# sourceMappingURL=parcel.model.js.map

@@ -20,4 +20,3 @@ app.use("/api/users", user_routes_1.default);
 app.use("/api/parcels", parcel_routes_1.default);
 app.use("/api/receiver", receiver_routes_1.default);
 exports.default = app;
-//# sourceMappingURL=app.js.map

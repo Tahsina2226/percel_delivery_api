@@ -11,4 +11,3 @@ router.use(authMiddleware_1.authenticateJWT, (0, authMiddleware_1.authorizeRoles
 router.get("/", admin_controller_1.getAllParcels);
 router.patch("/status/:id", admin_controller_1.updateParcelStatus);
 exports.default = router;
-//# sourceMappingURL=admin.routes.js.map

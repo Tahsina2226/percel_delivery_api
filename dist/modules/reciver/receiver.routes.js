@@ -11,4 +11,3 @@ router.use(authMiddleware_1.authenticateJWT, (0, authMiddleware_1.authorizeRoles
 router.get("/incoming", receiver_controller_1.getIncomingParcels);
 router.patch("/confirm/:id", receiver_controller_1.confirmDelivery);
 exports.default = router;
-//# sourceMappingURL=receiver.routes.js.map
