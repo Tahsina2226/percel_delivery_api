@@ -25,6 +25,7 @@ export const confirmDelivery = async (req: Request, res: Response) => {
     status: "Delivered",
     location: parcel.deliveryAddress,
     updatedBy: req.user!.id,
+    timestamp: new Date(), // এখানে timestamp দিতে হবে
   });
 
   await parcel.save();
